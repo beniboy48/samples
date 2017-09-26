@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+}
+
+/* --- HEADER PART --- */
+
+header {
+  background-image: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.tagline, .date, h1 {
+  background-color: hsla(0, 0%, 0%, .7);
+  padding: 1rem 0;
+}
+
+.tagline {
+  font-family:  'Libre Baskerville', serif;
+  color: white;
+  letter-spacing: .1rem;
+  font-size: 1.2rem;
+}
+
+.tagline::after {
+  display: block;
+  height: 1px;
+  width: 12rem;
+  background-color: #ffffff;
+  margin: 1rem auto;
+  content: "";
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #d2ba87;
+  padding: .1rem;
+}
+
+span {
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Muli', sans-serif;
+}
+
+.date {
+  color: white;
+  font-size: 1.6rem;
+  letter-spacing: .1rem;
+}
+
+.date::before, .date::after {
+  display: inline-block;
+  height: 1px;
+  width: 1.5rem;
+  background-color: #ffffff;
+  content: "";
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+/* --- CONTENT PART - LOCATIONS --- */
+
+section {
+  background-image: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png");
+}
+
+img {
+  display: block;
+  width: 7rem;
+  height: 7rem;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  padding: 2.5rem 0;
+  text-align: center;
+}
+
+.place {
+  color: #444349;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.5rem;
+  color: #444349;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.infos {
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  color: #444349;
+  line-height: 1.8rem;
+  font-size: 1.1rem;
+}
+
+.infos-last {
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  color: #444349;
+  line-height: 1.8rem;
+  font-size: 1.1rem;
+  padding-bottom: 2rem;
+}
+
+.infos::after, .infos-last::after {
+  display: block;
+  height: 3px;
+  width: 9rem;
+  background-color: #444349;
+  content: "";
+  margin: 1.5rem auto;
+}
+
+
+
+/* --- CONTENT PART - PROGRAM --- */
+
+.program {
+  background-color: hsla(0, 0%, 0%, .6);
+  color: #d2ba87;
+}
+
+.tagline2 {
+  font-family: 'Muli', sans-serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+ul {
+  padding-bottom: 2rem;
+}
+
+li {
+  font-family: 'Muli', sans-serif;
+  padding-left: 1rem;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+/* --- CONTENT PART - GIFTS --- */
+
+.gifts {
+  color: #444349;
+}
+
+.tagline3 {
+  font-family: 'Libre Baskerville', serif;
+  text-align:center;
+  padding-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.tagline4 {
+  font-family: 'Libre Baskerville', serif;
+  text-align:center;
+  padding: 2rem 0;
+  font-size: 1.1rem;
+}
+
+/* --- CONTENT PART - QUESTIONS --- */
+
+.qanda {
+  color: #d2ba87;
+  background-color: hsla(0, 0%, 0%, .6);
+  color: #d2ba87;
+  padding-bottom: 1.5rem;
+}
+
+.travel-title {
+  color: #d2ba87;
+  font-weight: normal;
+  padding-top: .5rem;
+}
+
+.question {
+  font-family: 'Muli', sans-serif;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.answer {
+  font-family: 'Muli', sans-serif;
+  padding: 1rem;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.travel::after, .food::after, .other::after {
+  display: block;
+  height: 3px;
+  width: 19rem;
+  background-color: #d2ba87;
+  content: "";
+  margin: 1.5rem auto;
+}
+
+/* --- CONTENT PART - CONTACT --- */
+
+.contact {
+  color: #444349;
+  padding-bottom: 2rem;
+}
+
+.contact1, .phone, .email {
+  font-family: 'Libre Baskerville', serif;
+  text-align:center;
+  padding-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+/* --- FOOTER --- */
+
+footer {
+  background-color: #606060;
+  padding: 1.5rem;
+  color: white;
+  font-family: 'Muli', sans-serif;
+  font-size: .85rem;
+  text-align: center;
+}
+
+/* --- LINKS --- */
+
+a {
+  color: #bd806e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eda087;
+  transition: .2s ease-in-out;
+}
+
+/* --- RESPONSIVE TABLET, DESKTOP--- */
+
+@media (min-width: 700px) {
+  
+  .tagline, .date, h1 {
+    background-color: hsla(0, 0%, 0%, .7);
+    width: 50%;
+    margin: 0 auto;
+    padding: 1.7rem;
+  }
+  .tagline {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+  }
+  h1 {
+    font-size: 7rem;
+  }
+  .infos, .infos-last {
+    display: inline-block;
+    padding: 1.5rem 1rem;
+    width: 30%;
+  }
+  .locations {
+    text-align: center;
+  }
+  .infos::after, .infos-last::after {
+    display: none;
+  }
+  ul, .tagline2 {
+    display: table;
+    margin: 0 auto;
+  }
+  .tagline2 {
+    width: 30%;
+  }
+  .travel, .food, .other {
+    display: table-cell;
+    width: 30%;
+    padding: 0 1rem;
+    margin: .5rem auto;
+  }
+  .question {
+    line-height: 1.8rem;
+  }
+  .travel::after, .food::after, .other::after {
+    display: none;
+  }
+  footer {
+  padding: .8rem;
+  }
+}
+
